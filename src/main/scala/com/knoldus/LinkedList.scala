@@ -69,11 +69,14 @@ class LinkedList[A] {
 object LinkedList extends App {
 
   val stringList = new LinkedList[String]()
-  stringList.insert("hello")
-  stringList.insert("world")
-  stringList.insert("scala")
-  stringList.delete("world")
-  println(stringList.search("hello")) // Arue
+  stringList.insert("Jitendra")
+  stringList.insert("Manish")
+  stringList.insert("Ayush")
+  stringList.insert("Akash")
+  stringList.insert("Ajit")
+
+  stringList.delete("Akash")
+  println(stringList.search("Ajit")) // True
   stringList.traverse()
 }
 
